@@ -700,7 +700,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 446efbc747f29c74cb343d6502d8d7c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deltaPosition: {x: 3, y: 0, z: 0}
+  deltaPosition: {x: -3, y: 0, z: 0}
   speed: 5
   waitTime: 15
 --- !u!114 &258393114
@@ -897,6 +897,7 @@ GameObject:
   - component: {fileID: 375909458}
   - component: {fileID: 375909462}
   - component: {fileID: 375909461}
+  - component: {fileID: 375909463}
   m_Layer: 0
   m_Name: Cube (35)
   m_TagString: Untagged
@@ -997,7 +998,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 375909456}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 446efbc747f29c74cb343d6502d8d7c2, type: 3}
   m_Name: 
@@ -1021,6 +1022,22 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
+--- !u!114 &375909463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375909456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db515f14e9a84bd409d98639b0dedfa4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deltaPosition: {x: -3.85, y: 0, z: 0}
+  speed: 5
+  delay: 3
+  state: 1
 --- !u!1 &387805668
 GameObject:
   m_ObjectHideFlags: 0
@@ -6391,7 +6408,7 @@ Transform:
   m_GameObject: {fileID: 2123535811}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.98, y: -15.97, z: -40.87}
+  m_LocalPosition: {x: 21.15, y: -15.97, z: -40.87}
   m_LocalScale: {x: 6.8809924, y: 1, z: 4.398565}
   m_ConstrainProportionsScale: 0
   m_Children: []
